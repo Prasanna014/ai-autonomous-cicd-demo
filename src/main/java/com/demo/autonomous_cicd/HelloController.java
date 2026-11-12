@@ -14,7 +14,7 @@ public class HelloController {
     // TEMPORARY FAILURE TEST
     @GetMapping("/test")
     public String test() {
-        return unknownVariable;
+        return "test";
     }
 }
 
