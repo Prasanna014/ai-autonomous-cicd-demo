@@ -10,4 +10,10 @@ public class HelloController {
     public String hello() {
         return "AI Autonomous CI/CD Demo";
     }
+
+    // TEMPORARY FAILURE TEST
+    @GetMapping("/test")
+    public String test() {
+        return unknownVariable;
+    }
 }
